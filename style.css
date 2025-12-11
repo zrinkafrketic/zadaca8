@@ -1,0 +1,93 @@
+body {
+    margin: 35px;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(243, 213, 235);
+@media (max-width: 768px) {
+  body {
+    font-size: 16px; 
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+}
+#naslov {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#buzdovani{
+    background-color: #f0f8ff;
+    border: 5px solid black;
+}
+#buzdovani h2 {
+    text-align: center;
+    color: black;
+}
+#buzdovani p {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#slika1{
+    width: 200px;
+    height: auto;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+#rucak {
+    background-color: #f5fff0;
+    text-align: center;  
+    border:5px solid #000000;
+}
+#rucak h2{
+    text-align: center;
+    color: #000000;
+} 
+#rucak p{
+    margin-left: 200px;
+    margin-right: 200px;}
+
+#uputa{color: brown;
+text-decoration: double;}
+
+#portret {
+    background-color: #fff8f0;
+    text-align: center;
+    border: 5px solid black;
+}
+#portret h1{
+    text-align: center;
+}
+#portret p{
+    margin-left: 200px;
+    margin-right: 200px;}
+#natjecanje { 
+    background-color: #dcfce0;
+    border: 5px solid black;
+}
+#patnja{
+    background-color: #e8dcfc;
+    border: 5px solid black;
+}
+#riba{
+    background-color: #fcdcf9;
+    border: 5px solid black
+}
+
+
+
+
+
