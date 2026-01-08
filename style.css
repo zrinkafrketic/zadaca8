@@ -40,8 +40,9 @@ body {
 #slika1{
     width: 200px;
     height: auto;
+    transition: width 2s;
 }
-div {
+#slikice {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,7 +87,23 @@ text-decoration: double;}
     background-color: #fcdcf9;
     border: 5px solid black
 }
-
+h1:hover, h1:active{
+    color: crimson;
+   background: #dcfce0;
+}
+#slika1:hover{
+    width: 300px;
+    height: auto;
+}
+input:focus{
+    background-color: honeydew;
+}
+#forma{
+    background-color: rgb(237, 245, 201);
+    transform: rotate(25deg);
+    width: 150px;
+    height: 80px;
+}
 
 
 
